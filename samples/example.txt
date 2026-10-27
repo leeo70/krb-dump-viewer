@@ -1,0 +1,59 @@
+[11/01 14:22:03] [+] received output:
+Kerbeus DUMP by RalfHacker
+
+Action: Dump
+
+UserName              : alice
+Domain                : EXAMPLE
+LogonId               : 0x1a2b3c
+Session               : 2
+UserSID               : S-1-5-21-1111111111-2222222222-3333333333-1104
+Authentication package: Kerberos
+LogonServer           : DC01
+UserPrincipalName     : alice@example.local
+
+[*] Cached tickets: (2)
+
+  [0]
+    ClientName       : alice @ EXAMPLE.LOCAL
+    ServiceRealm     : krbtgt/EXAMPLE.LOCAL @ EXAMPLE.LOCAL
+    StartTime (UTC)  : 11/1/2026 2:22:03 PM
+    EndTime (UTC)    : 12/1/2026 0:22:03 AM
+    RenewTill (UTC)  : 18/1/2026 2:22:03 PM
+    Flags            : forwardable, renewable, pre_authent
+    KeyType          : aes256_cts_hmac_sha1
+
+doIEMDCCBCygAwIBBaEDAgEWooIDGjCCAxZhggMSMIIDDqADAgEFoQ0bC0VYQU1QTEUuTE9DQUyiIDAeoAMCAQKhFxsVa3JidGd0L0VYQU1QTEUuTE9DQUyjggLWMIIC0qADAgESoQMCAQKiggLEBIICwFakePadDinGPlaceHolderBase64TicketForDemoPurposesOnlyThisIsNotARealKerberosTicketBlobItIsPaddedToMoreThanTwoHundredCharactersSoThatTheViewerAcceptsItAsAnExampleKerbeusDumpBlobXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+  [1]
+    ClientName       : alice @ EXAMPLE.LOCAL
+    ServiceRealm     : cifs/fs01.example.local @ EXAMPLE.LOCAL
+    StartTime (UTC)  : 11/1/2026 2:24:11 PM
+    EndTime (UTC)    : 12/1/2026 0:22:03 AM
+    RenewTill (UTC)  : 18/1/2026 2:22:03 PM
+    Flags            : forwardable, pre_authent, ok_as_delegate
+    KeyType          : aes256_cts_hmac_sha1
+
+doIEBzCCBAOgAwIBBaEDAgEWooIDGzCCAxdhggMTMIIDD6ADAgEFoQ0bC0VYQU1QTEUuTE9DQUyiITAfoAMCAQKhGBsWY2lmcy9mczAxLmV4YW1wbGUubG9jYWyjggLYMIIC1KADAgESoQMCAQKiggLGBIICwkeMoreFakePlaceholderBytesPaddedToEnsureItIsAcceptedByTheBase64HeuristicsOfTheViewerAndTheMinimumLengthOfTwoHundredCharactersXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+UserName              : Administrator
+Domain                : EXAMPLE
+LogonId               : 0x3e7
+Session               : 0
+UserSID               : S-1-5-21-1111111111-2222222222-3333333333-500
+Authentication package: Kerberos
+LogonServer           : DC01
+UserPrincipalName     : Administrator@example.local
+
+[*] Cached tickets: (1)
+
+  [0]
+    ClientName       : Administrator @ EXAMPLE.LOCAL
+    ServiceRealm     : krbtgt/EXAMPLE.LOCAL @ EXAMPLE.LOCAL
+    StartTime (UTC)  : 11/1/2026 2:30:00 PM
+    EndTime (UTC)    : 12/1/2026 0:30:00 AM
+    RenewTill (UTC)  : 18/1/2026 2:30:00 PM
+    Flags            : forwardable, renewable, pre_authent
+    KeyType          : aes256_cts_hmac_sha1
+
+doIEMjCCBC6gAwIBBaEDAgEWooIDHDCCAxhhggMUMIIDEKADAgEFoQ0bC0VYQU1QTEUuTE9DQUyiIDAeoAMCAQKhFxsVa3JidGd0L0VYQU1QTEUuTE9DQUyjggLYMIIC1KADAgESoQMCAQKiggLGBIICwkFakeAdminTGTPlaceholderBytesPaddedToEnsureAcceptanceByTheViewerThisIsNotARealTicketKerbeusDumpBlobDemoXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
